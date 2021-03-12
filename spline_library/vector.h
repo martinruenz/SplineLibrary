@@ -36,7 +36,6 @@ public:
 
     inline static floating_t dotProduct(const Vector<dimension, floating_t>& left, const Vector<dimension, floating_t>& right);
 
-private:
     std::array<floating_t, dimension> data;
 };
 
